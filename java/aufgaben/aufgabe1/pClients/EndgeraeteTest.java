@@ -11,20 +11,20 @@ public class EndgeraeteTest {
         testeMailVersand(smartphone);
         testeMailVersand(notebook);
 
-        gsmHandy.sendeSMS("Test");
-        smartphone.sendeSMS("Test");
+        gsmHandy.sendSMS("Test");
+        smartphone.sendSMS("Test");
         smartphone.sendeMail("Test");
         notebook.sendeMail("Test");
 
-        gsmHandy.sendeSMS("This");
-        smartphone.sendeSMS("is");
+        gsmHandy.sendSMS("This");
+        smartphone.sendSMS("is");
         smartphone.sendeMail("a");
         notebook.sendeMail("Test");
 
     }
 
     public static void testeSMSVersand(SMSClient smsClient) {
-        smsClient.sendeSMS("Test Mitteilung!");
+        smsClient.sendSMS("Test Mitteilung!");
     }
 
     public static void testeMailVersand(MailClient mailClient) {

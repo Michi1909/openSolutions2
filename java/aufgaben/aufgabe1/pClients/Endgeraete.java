@@ -13,15 +13,7 @@ public abstract class Endgeraete {
         return identNr;
     }
 
-    public void setIdentNr(String identNr) {
-        this.identNr = identNr;
-    }
-
     public String getHersteller() {
         return hersteller;
-    }
-
-    public void setHersteller(String hersteller) {
-        this.hersteller = hersteller;
     }
 }
