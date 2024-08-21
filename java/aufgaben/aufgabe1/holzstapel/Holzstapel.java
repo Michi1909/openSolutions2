@@ -4,11 +4,8 @@ public class Holzstapel {
     private Holzstapel(int anzahlHoelzer) {
         this.anzahlHoelzer = anzahlHoelzer;
     }
-    public Holzstapel neuerHolzstapel(int anzahlHoelzer) {
-
-        //TODO
-        return new Holzstapel(anzahlHoelzer):
-
+    public static Holzstapel neuerHolzstapel(int anzahlHoelzer) {
+        return new Holzstapel(anzahlHoelzer);
     }
     public int getAnzahlHoelzer() {
         return anzahlHoelzer;
@@ -17,11 +14,13 @@ public class Holzstapel {
         return anzahlHoelzer == 0;
     }
     public boolean istLegal(int anzahlHoelzer) {
-        //TODO
-        return anzahlHoelzer == anzahlHoelzer;
+        return anzahlHoelzer > 0 && anzahlHoelzer < 4;
     }
     public void nimm(int anzahlHoelzer) {
-        //TODO
-        this.anzahlHoelzer -= anzahlHoelzer;
+        if(istLegal(anzahlHoelzer)){
+            this.anzahlHoelzer -= anzahlHoelzer;
+        }else{
+            System.out.println(anzahlHoelzer+" sind nicht legal!");
+        }
     }
 }

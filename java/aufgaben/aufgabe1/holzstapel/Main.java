@@ -16,9 +16,9 @@ public class Main {
          * Erzeugt alle Objekte.
          */
         // TODO: Objekte richtig erzeugen!
-        Holzstapel stapel = null;
-        AbstrakterSpieler computer = null;
-        AbstrakterSpieler mensch = null;
+        Holzstapel stapel = Holzstapel.neuerHolzstapel(anzahlHoelzer);
+        AbstrakterSpieler computer = new Computer("Computer",stapel);
+        AbstrakterSpieler mensch = new Mensch("Ella",stapel);
 
         /*
          * Legt den aktuellen Spieler fest.
@@ -41,7 +41,7 @@ public class Main {
                 aktuellerSpieler = computer;
             int n = aktuellerSpieler.ziehe();
             System.out.println(
-                    aktuellerSpieler + " zieht " + n + ", Rest: " + stapel.anzahlHoelzer());
+                    aktuellerSpieler + " zieht " + n + ", Rest: " + stapel.getAnzahlHoelzer());
         }
         System.out.println(aktuellerSpieler.gewinnMeldung());
     }

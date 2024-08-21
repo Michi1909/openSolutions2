@@ -6,6 +6,6 @@ public abstract class AbstrakterSpieler {
         this.name = name;
         this.stapel = stapel;
     }
-    public abstract int ziehe():
+    public abstract int ziehe();
     public abstract String gewinnMeldung();
 }

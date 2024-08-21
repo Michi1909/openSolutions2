@@ -1,7 +1,4 @@
 package aufgaben.aufgabe1.holzstapel;
-package aufgaben.aufgabe1.holzstapel;
-
-
 import java.util.InputMismatchException;
 import java.util.Scanner;
 import java.util.HashMap;

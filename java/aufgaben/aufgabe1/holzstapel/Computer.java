@@ -12,7 +12,7 @@ public class Computer extends AbstrakterSpieler{
         return toString()+" hat gewonnen!";
     }
     private int optimalerZug(){
-        int anzahl = stapel.anzahlHoelzer();
+        int anzahl = stapel.getAnzahlHoelzer();
         int zug = anzahl % 4;
         if (zug == 0)zug = 1;
         return zug;
