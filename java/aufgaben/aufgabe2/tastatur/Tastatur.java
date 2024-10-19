@@ -13,7 +13,7 @@ public class Tastatur {
             try{
                 String zeile = sE.readLine();
                 int i = Integer.parseInt(zeile);
-                if(i<0)throw new NumberFormatException();
+               // if(i<0)throw new NumberFormatException();
                 return i;
             }
             catch(NumberFormatException e){
