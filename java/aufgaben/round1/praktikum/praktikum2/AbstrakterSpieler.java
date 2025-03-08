@@ -1,4 +1,5 @@
-package aufgaben.aufgabe1.holzstapel;
+package aufgaben.round1.praktikum.praktikum2;
+
 public abstract class AbstrakterSpieler {
     protected final Holzstapel stapel;
     private final String name;

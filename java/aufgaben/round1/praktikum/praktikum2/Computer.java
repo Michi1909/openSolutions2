@@ -1,5 +1,6 @@
-package aufgaben.aufgabe1.holzstapel;
-public class Computer extends AbstrakterSpieler{
+package aufgaben.round1.praktikum.praktikum2;
+
+public class Computer extends AbstrakterSpieler {
     public Computer(String name, Holzstapel holzstapel) {
         super(name, holzstapel);
     }

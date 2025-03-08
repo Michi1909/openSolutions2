@@ -1,8 +1,9 @@
-package aufgaben.aufgabe1.holzstapel;
-import java.util.InputMismatchException;
-import java.util.Scanner;
+package aufgaben.round1.praktikum.praktikum2;
+
 import java.util.HashMap;
+import java.util.InputMismatchException;
 import java.util.Map;
+import java.util.Scanner;
 
 public class Keyboard {
     private static Scanner input = new Scanner(System.in);
