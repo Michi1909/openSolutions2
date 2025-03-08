@@ -1,4 +1,4 @@
-package aufgaben.Round1.Uebungsaufgabe3;
+package aufgaben.round1.praktikum.praktikum1;
 abstract class PKW {
     private String hersteller;
     private String modell;

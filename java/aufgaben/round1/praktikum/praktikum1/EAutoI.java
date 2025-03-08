@@ -1,4 +1,4 @@
-package aufgaben.Round1.Uebungsaufgabe3;
+package aufgaben.round1.praktikum.praktikum1;
 
 public interface EAutoI {
     void aufladen(String ladeart);

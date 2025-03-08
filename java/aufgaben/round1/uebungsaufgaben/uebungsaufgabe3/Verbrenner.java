@@ -1,4 +1,4 @@
-package aufgaben.Round1.Uebungsaufgabe3;
+package aufgaben.round1.uebungsaufgaben.uebungsaufgabe3;
 
 public class Verbrenner extends PKW implements VerbrennerI{
     @Override

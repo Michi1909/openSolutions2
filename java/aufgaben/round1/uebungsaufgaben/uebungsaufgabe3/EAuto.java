@@ -1,6 +1,4 @@
-package aufgaben.Round1.Uebungsaufgabe3;
-
-import java.io.Serializable;
+package aufgaben.round1.uebungsaufgaben.uebungsaufgabe3;
 
 public class EAuto extends PKW implements EAutoI{
     @Override
